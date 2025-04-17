@@ -22,13 +22,13 @@ function timer() {
         msec = 0
     }
 
-    if (sec >= 10) {
+    if (sec >= 60) {
         min++
         minElement.innerHTML = min
         sec = 0
     }
 
-    if (min >= 5) {
+    if (min >= 60) {
         hr++
         hrElement.innerHTML = hr
         min = 0
